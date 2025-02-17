@@ -8,7 +8,7 @@ function StateHooks() {
 
     const [books, setBooks] = useState([])
 
-    axios.get(BookData)
+    axios.get('https://raw.githubusercontent.com/minhazapon/React-Hooks-Rules/refs/heads/main/public/bookData.json')
         .then((res) => {
             setBooks(res.data)
         })
@@ -20,21 +20,13 @@ function StateHooks() {
     return (
         <>
             <div className=" m-20 ">
-
-
-                <div>
-                    <div>
-
+                <div className=" flex justify-center ">
+                    <div className=" grid  md:grid-cols-3 gap-5 ">
                         {
-
                             books.map(books => <StateDetails key={books.id} books={books} ></StateDetails>)
-
                         }
-
                     </div>
                 </div>
-
-
             </div>
         </>
     )
