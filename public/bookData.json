@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "image": "https://i0.wp.com/apeejay.news/wp-content/uploads/2023/10/281023-10-most-read-books-Feature.jpg?fit=569%2C509&ssl=1",
+        "name": "বিশ্বসাহিত্য ভ্রমণ",
+        "details": "বিশ্বের বিভিন্ন দেশের সাহিত্য ও তার ইতিহাস নিয়ে লেখা।",
+        "since": 2020,
+        "writer": "হুমায়ূন আহমেদ",
+        "price": 350
+    },
+    {
+        "id": 2,
+        "image": "https://i0.wp.com/apeejay.news/wp-content/uploads/2023/10/281023-10-most-read-books-Feature.jpg?fit=569%2C509&ssl=1",
+        "name": "সায়েন্স ফিকশন সংগ্রহ",
+        "details": "বাংলা সাহিত্যের সেরা সায়েন্স ফিকশন গল্পগুলোর সংকলন।",
+        "since": 2018,
+        "writer": "জাফর ইকবাল",
+        "price": 420
+    },
+    {
+        "id": 3,
+        "image": "https://i0.wp.com/apeejay.news/wp-content/uploads/2023/10/281023-10-most-read-books-Feature.jpg?fit=569%2C509&ssl=1",
+        "name": "বাংলা কবিতার ভুবন",
+        "details": "বাংলা ভাষার বিখ্যাত কবিদের কবিতার সংকলন।",
+        "since": 2015,
+        "writer": "সুনীল গঙ্গোপাধ্যায়",
+        "price": 300
+    },
+    {
+        "id": 4,
+        "image": "https://i0.wp.com/apeejay.news/wp-content/uploads/2023/10/281023-10-most-read-books-Feature.jpg?fit=569%2C509&ssl=1",
+        "name": "ইতিহাসের অলিগলি",
+        "details": "বাংলা ও বিশ্ব ইতিহাসের গুরুত্বপূর্ণ বিষয়বস্তু।",
+        "since": 2019,
+        "writer": "মুনতাসীর মামুন",
+        "price": 500
+    },
+    {
+        "id": 5,
+        "image": "https://i0.wp.com/apeejay.news/wp-content/uploads/2023/10/281023-10-most-read-books-Feature.jpg?fit=569%2C509&ssl=1",
+        "name": "গোয়েন্দা রহস্য",
+        "details": "রোমাঞ্চকর গোয়েন্দা গল্পের সংকলন।",
+        "since": 2021,
+        "writer": "শীর্ষেন্দু মুখোপাধ্যায়",
+        "price": 380
+    },
+    {
+        "id": 6,
+        "image": "https://i0.wp.com/apeejay.news/wp-content/uploads/2023/10/281023-10-most-read-books-Feature.jpg?fit=569%2C509&ssl=1",
+        "name": "উপন্যাসের রঙ",
+        "details": "বিভিন্ন ধরণের উপন্যাসের সংকলন।",
+        "since": 2017,
+        "writer": "সেলিনা হোসেন",
+        "price": 450
+    },
+    {
+        "id": 7,
+        "image": "https://i0.wp.com/apeejay.news/wp-content/uploads/2023/10/281023-10-most-read-books-Feature.jpg?fit=569%2C509&ssl=1",
+        "name": "মহাকাশ ও বিজ্ঞান",
+        "details": "মহাকাশ গবেষণা ও বিজ্ঞানের চমকপ্রদ তথ্য।",
+        "since": 2022,
+        "writer": "আবদুল্লাহ আল মুতী",
+        "price": 550
+    },
+    {
+        "id": 8,
+        "image": "https://i0.wp.com/apeejay.news/wp-content/uploads/2023/10/281023-10-most-read-books-Feature.jpg?fit=569%2C509&ssl=1",
+        "name": "বাংলা নাটকের ইতিহাস",
+        "details": "বাংলা নাটকের উৎপত্তি ও বিবর্তন।",
+        "since": 2016,
+        "writer": "মহিউদ্দিন আহমেদ",
+        "price": 320
+    },
+    {
+        "id": 9,
+        "image": "https://i0.wp.com/apeejay.news/wp-content/uploads/2023/10/281023-10-most-read-books-Feature.jpg?fit=569%2C509&ssl=1",
+        "name": "সফল উদ্যোক্তার গল্প",
+        "details": "বাংলাদেশের সফল উদ্যোক্তাদের অনুপ্রেরণামূলক গল্প।",
+        "since": 2023,
+        "writer": "আনিসুল হক",
+        "price": 600
+    },
+    {
+        "id": 10,
+        "image": "https://i0.wp.com/apeejay.news/wp-content/uploads/2023/10/281023-10-most-read-books-Feature.jpg?fit=569%2C509&ssl=1",
+        "name": "মনস্তত্ত্ব ও জীবন",
+        "details": "মানব মনের গঠন ও তার কার্যক্রম নিয়ে লেখা।",
+        "since": 2014,
+        "writer": "ড. মোহিত কামাল",
+        "price": 400
+    }
+]
