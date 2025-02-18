@@ -4,7 +4,7 @@ import { useState } from "react"
 
 function Challenges() {
 
-    const [counter, setCounter] = useState("")
+    const [counter, setCounter] = useState(0)
 
     const handleIncrement = () => {
         setCounter(counter + 1)
@@ -26,7 +26,7 @@ function Challenges() {
                     <p className=" mt-10 text-xl "> Count: {counter} </p>
                     <div className=" mt-10 flex items-center gap-3 ">
                         <p className=" text-xl ">SetValue:</p>
-                        <input className=" border-[1px] border-blue-800 h-[50px] w-full rounded-lg p-5 " placeholder="Value" type="text" />
+                        <input className=" border-[1px] border-blue-800 h-[50px] w-full rounded-lg p-5 " placeholder="Value" type="number" />
                     </div>
                 </div>
                 <div className=" flex justify-between gap-5 items-center mt-14  ">
