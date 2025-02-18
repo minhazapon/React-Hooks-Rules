@@ -36,7 +36,10 @@ function Nav() {
                             {NavZ}
                         </ul>
                     </div>
-                    <a className=" text-xl">React Hooks rules</a>
+                    <div className=" flex items-center gap-2">
+                        <img className=" h-[50px] " src="https://miro.medium.com/v2/resize:fit:1166/1*bqtyARlwzJtp9XTWjM3quQ.png" alt="" />
+                        <a className=" text-xl">React Hooks rules</a>
+                    </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
