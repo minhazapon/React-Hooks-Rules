@@ -9,6 +9,7 @@ import {
 import Root from './Root';
 import Home from './Home';
 import Challenges from './hooks/Challenges';
+import Registration from './registration/Registration';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/challenges",
         element: <Challenges></Challenges>,
+      },
+      {
+        path: "/registration",
+        element: <Registration></Registration>,
       },
     ],
   },
