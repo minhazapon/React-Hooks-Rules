@@ -6,7 +6,7 @@ function Nav() {
     const NavZ = <>
 
         <li><NavLink to='/'>Home</NavLink></li>
-
+        <li><NavLink to='/challenges'>Challenges</NavLink></li>
 
     </>
 

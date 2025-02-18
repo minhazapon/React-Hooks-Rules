@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Root from './Root';
 import Home from './Home';
+import Challenges from './hooks/Challenges';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/challenges",
+        element: <Challenges></Challenges>,
       },
     ],
   },
