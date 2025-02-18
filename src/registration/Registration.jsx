@@ -4,14 +4,34 @@ import { useState } from "react"
 function Registration() {
 
     const [user, setUser] = useState({
-
         name: "",
         username: "",
         email: "",
         password: "",
-        confirm_password: ""
-
     })
+    const handleInput = (e) => {
+        const { name, value } = e.target
+        setUser((data) => ({ ...data, [name]: value }))
+    }
+    const handleForm = (e) => {
+        e.preventDefault();
+        console.log(user)
+
+    }
+
+
+    //some important code, don't touch it man
+    // const handleForm = (e) => {
+
+    //     e.preventDefault();
+    //     const name = e.target.name.value
+    //     const username = e.target.username.value
+    //     const email = e.target.email.value
+    //     const password = e.target.password.value
+    //     const allValue = { name, username, email, password }
+    //     console.log(allValue)
+
+    // }
 
     return (
         <div className=' m-20 '>
@@ -20,7 +40,7 @@ function Registration() {
                 <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
                     <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
 
-                        <form >
+                        <form onSubmit={handleForm} >
 
 
                             <div>
@@ -31,6 +51,7 @@ function Registration() {
                                         placeholder="John Doe"
                                         type="text"
                                         value={user.name}
+                                        onChange={handleInput}
                                         required
                                         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
                                 </div>
@@ -51,6 +72,7 @@ function Registration() {
                                         placeholder="john"
                                         type="text"
                                         value={user.username}
+                                        onChange={handleInput}
                                         required
                                         class="flex-1  border border-gray-300 form-input pl-3 block w-full rounded-none rounded-r-md transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
                                 </div>
@@ -69,6 +91,7 @@ function Registration() {
                                         placeholder="user@example.com"
                                         type="email"
                                         value={user.email}
+                                        onChange={handleInput}
                                         required
                                         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
                                 </div>
@@ -85,26 +108,12 @@ function Registration() {
                                         name="password"
                                         type="password"
                                         value={user.password}
+                                        onChange={handleInput}
                                         required
                                         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
                                 </div>
                             </div>
 
-
-
-                            <div class="mt-6">
-                                <label for="password_confirmation" class="block text-sm font-medium leading-5 text-gray-700">
-                                    Confirm Password
-                                </label>
-                                <div class="mt-1 rounded-md shadow-sm">
-                                    <input id="password_confirmation"
-                                        name="confirm_password"
-                                        value={user.confirm_password}
-                                        type="password"
-                                        required
-                                        class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
-                                </div>
-                            </div>
 
                             <div class="mt-6">
                                 <span class="block w-full rounded-md shadow-sm">
