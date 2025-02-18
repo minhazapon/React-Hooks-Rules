@@ -1,6 +1,14 @@
+import { useState } from "react"
 
 
 function Registration() {
+
+    const [name, SetName] = useState("")
+    const [userName, SetUserName] = useState("")
+    const [email, SetEmail] = useState("")
+    const [password, SetPassword] = useState("")
+    const [confirmPassword, setConfirmPassword] = useState("")
+
 
 
     return (
