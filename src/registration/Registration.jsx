@@ -3,6 +3,16 @@ import { useState } from "react"
 
 function Registration() {
 
+    const [user, setUser] = useState({
+
+        name: "",
+        username: "",
+        email: "",
+        password: "",
+        confirm_password: ""
+
+    })
+
     return (
         <div className=' m-20 '>
             <div class="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
@@ -20,7 +30,7 @@ function Registration() {
                                         name="name"
                                         placeholder="John Doe"
                                         type="text"
-
+                                        value={user.name}
                                         required
                                         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
                                 </div>
@@ -40,6 +50,7 @@ function Registration() {
                                         name="username"
                                         placeholder="john"
                                         type="text"
+                                        value={user.username}
                                         required
                                         class="flex-1  border border-gray-300 form-input pl-3 block w-full rounded-none rounded-r-md transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
                                 </div>
@@ -57,6 +68,7 @@ function Registration() {
                                         name="email"
                                         placeholder="user@example.com"
                                         type="email"
+                                        value={user.email}
                                         required
                                         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
                                 </div>
@@ -72,6 +84,7 @@ function Registration() {
                                     <input id="password"
                                         name="password"
                                         type="password"
+                                        value={user.password}
                                         required
                                         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
                                 </div>
@@ -85,7 +98,8 @@ function Registration() {
                                 </label>
                                 <div class="mt-1 rounded-md shadow-sm">
                                     <input id="password_confirmation"
-                                        name="password_confirmation"
+                                        name="confirm_password"
+                                        value={user.confirm_password}
                                         type="password"
                                         required
                                         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
