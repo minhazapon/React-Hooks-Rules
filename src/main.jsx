@@ -10,6 +10,7 @@ import Root from './Root';
 import Home from './Home';
 import Challenges from './hooks/Challenges';
 import Registration from './registration/Registration';
+import Login from './registration/Login';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "/registration",
         element: <Registration></Registration>,
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
       },
     ],
   },
