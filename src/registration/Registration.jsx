@@ -3,14 +3,6 @@ import { useState } from "react"
 
 function Registration() {
 
-    const [name, SetName] = useState("")
-    const [userName, SetUserName] = useState("")
-    const [email, SetEmail] = useState("")
-    const [password, SetPassword] = useState("")
-    const [confirmPassword, setConfirmPassword] = useState("")
-
-
-
     return (
         <div className=' m-20 '>
             <div class="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
@@ -28,6 +20,7 @@ function Registration() {
                                         name="name"
                                         placeholder="John Doe"
                                         type="text"
+
                                         required
                                         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
                                 </div>
