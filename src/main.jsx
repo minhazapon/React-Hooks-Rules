@@ -11,6 +11,7 @@ import Home from './Home';
 import Challenges from './hooks/Challenges';
 import Registration from './registration/Registration';
 import Login from './registration/Login';
+import Contact from './registration/Contact';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login></Login>,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
       },
     ],
   },
