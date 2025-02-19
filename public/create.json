@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "image": "https://example.com/images/dennis_ritchie.jpg",
+      "name": "Dennis Ritchie",
+      "technology": "C Language",
+      "details": "Dennis Ritchie was an American computer scientist who created the C programming language and co-developed the Unix operating system.",
+      "university": "Harvard University",
+      "since": 1969,
+      "country": "USA"
+    },
+    {
+      "id": 2,
+      "image": "https://example.com/images/guido_van_rossum.jpg",
+      "name": "Guido van Rossum",
+      "technology": "Python",
+      "details": "Guido van Rossum is a Dutch programmer known as the creator of the Python programming language.",
+      "university": "University of Amsterdam",
+      "since": 1991,
+      "country": "Netherlands"
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/images/james_gosling.jpg",
+      "name": "James Gosling",
+      "technology": "Java",
+      "details": "James Gosling is a Canadian computer scientist best known as the creator of the Java programming language.",
+      "university": "Carnegie Mellon University",
+      "since": 1995,
+      "country": "Canada"
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/images/linus_torvalds.jpg",
+      "name": "Linus Torvalds",
+      "technology": "Linux Kernel",
+      "details": "Linus Torvalds is a Finnish-American software engineer who created the Linux kernel.",
+      "university": "University of Helsinki",
+      "since": 1991,
+      "country": "Finland"
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/images/ken_thompson.jpg",
+      "name": "Ken Thompson",
+      "technology": "Unix, Go",
+      "details": "Ken Thompson is an American computer scientist who co-created Unix and later co-developed the Go programming language.",
+      "university": "University of California, Berkeley",
+      "since": 1969,
+      "country": "USA"
+    },
+    {
+      "id": 6,
+      "image": "https://example.com/images/brendan_eich.jpg",
+      "name": "Brendan Eich",
+      "technology": "JavaScript",
+      "details": "Brendan Eich is an American programmer who created JavaScript in just 10 days while working at Netscape.",
+      "university": "University of Illinois Urbana-Champaign",
+      "since": 1995,
+      "country": "USA"
+    },
+    {
+      "id": 7,
+      "image": "https://example.com/images/bjarne_stroustrup.jpg",
+      "name": "Bjarne Stroustrup",
+      "technology": "C++",
+      "details": "Bjarne Stroustrup is a Danish computer scientist who created the C++ programming language.",
+      "university": "University of Cambridge",
+      "since": 1983,
+      "country": "Denmark"
+    },
+    {
+      "id": 8,
+      "image": "https://example.com/images/yukihiro_matsumoto.jpg",
+      "name": "Yukihiro Matsumoto",
+      "technology": "Ruby",
+      "details": "Yukihiro Matsumoto, also known as Matz, is a Japanese computer scientist who designed the Ruby programming language.",
+      "university": "University of Tsukuba",
+      "since": 1995,
+      "country": "Japan"
+    },
+    {
+      "id": 9,
+      "image": "https://example.com/images/anders_hejlsberg.jpg",
+      "name": "Anders Hejlsberg",
+      "technology": "C#, TypeScript",
+      "details": "Anders Hejlsberg is a Danish software engineer known for creating Turbo Pascal, C#, and co-developing TypeScript.",
+      "university": "Technical University of Denmark",
+      "since": 2000,
+      "country": "Denmark"
+    },
+    {
+      "id": 10,
+      "image": "https://example.com/images/larry_wall.jpg",
+      "name": "Larry Wall",
+      "technology": "Perl",
+      "details": "Larry Wall is an American programmer and linguist known for creating the Perl programming language.",
+      "university": "University of California, Berkeley",
+      "since": 1987,
+      "country": "USA"
+    }
+  ]
+  

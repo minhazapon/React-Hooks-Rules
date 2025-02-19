@@ -1,7 +1,7 @@
 
-function Creator() {
 
 
+function Details() {
     return (
         <div>
 
@@ -9,4 +9,4 @@ function Creator() {
     )
 }
 
-export default Creator
+export default Details
