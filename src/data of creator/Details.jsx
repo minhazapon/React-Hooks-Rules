@@ -1,11 +1,17 @@
 
 
 
-function Details() {
-    return (
-        <div>
+function Details({ creator }) {
 
-        </div>
+    const { image, name, technology, details, university, since, country } = creator
+
+    return (
+        <>
+            <div>
+
+
+            </div>
+        </>
     )
 }
 
