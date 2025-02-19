@@ -12,6 +12,7 @@ import Challenges from './hooks/Challenges';
 import Registration from './registration/Registration';
 import Login from './registration/Login';
 import Contact from './registration/Contact';
+import Creator from './data of creator/Creator';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact></Contact>,
+      },
+      {
+        path: "/creator",
+        element: <Creator></Creator>,
       },
     ],
   },

@@ -10,6 +10,7 @@ function Nav() {
         <li><NavLink to='/registration'>registration</NavLink></li>
         <li><NavLink to='/login'>login</NavLink></li>
         <li><NavLink to='/contact'>Contact</NavLink></li>
+        <li><NavLink to='/creator'>Creator</NavLink></li>
 
     </>
 
