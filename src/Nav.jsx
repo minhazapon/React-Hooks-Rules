@@ -15,7 +15,6 @@ function Nav() {
 
     return (
         <div>
-
             <div className="navbar bg-base-100 p-5 shadow">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -41,7 +40,7 @@ function Nav() {
                     </div>
                     <div className=" flex items-center gap-2">
                         <img className=" h-[50px] " src="https://miro.medium.com/v2/resize:fit:1166/1*bqtyARlwzJtp9XTWjM3quQ.png" alt="" />
-                        <a className=" text-xl">React Hooks rules</a>
+                        <a className=" text-xs md:text-xl">React Hooks rules</a>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -50,7 +49,6 @@ function Nav() {
                     </ul>
                 </div>
             </div>
-
         </div>
     )
 }

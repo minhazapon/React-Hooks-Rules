@@ -33,8 +33,6 @@ function Contact() {
         })
     }
 
-
-
     return (
         <div className=" m-20 ">
             <div class="p-4 mx-auto max-w-xl bg-white font-[sans-serif] border-[1px]">
