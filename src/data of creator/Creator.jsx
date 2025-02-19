@@ -8,7 +8,7 @@ function Creator() {
 
     axios.get('https://raw.githubusercontent.com/minhazapon/React-Hooks-Rules/refs/heads/main/public/create.json')
         .then(res => {
-            setCreator(res)
+            setCreator(res.data)
         })
         .catch(error => {
             console.log(error)
