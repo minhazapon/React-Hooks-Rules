@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Swal from "sweetalert2"
 
 
 function Contact() {
@@ -23,6 +24,13 @@ function Contact() {
         setEmail("");
         setSubject("");
         setMessage("");
+
+        Swal.fire({
+            title: 'contact done!',
+            text: 'Do you want to continue',
+            icon: 'success',
+            confirmButtonText: 'Cool'
+        })
     }
 
 
