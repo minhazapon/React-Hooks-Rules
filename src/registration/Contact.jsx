@@ -17,6 +17,12 @@ function Contact() {
             message
         }
         console.log(allData)
+
+        // Reset the form fields
+        setName("");
+        setEmail("");
+        setSubject("");
+        setMessage("");
     }
 
 
