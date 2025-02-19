@@ -19,8 +19,8 @@ function Creator() {
             <div className=" m-20 ">
                 <div>
                     <p className=" text-center text-5xl font-bold text-cyan-700 ">Creator of programming technology</p>
-                    <div>
-                        <div>
+                    <div className=" flex justify-center mt-10 ">
+                        <div className=" grid  md:grid-cols-3 gap-6 ">
                             {
                                 creator.map(creator => <Details key={creator.id} creator={creator} ></Details>)
                             }

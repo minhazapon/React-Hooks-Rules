@@ -3,12 +3,12 @@
 
 function Details({ creator }) {
 
-    const { image, name, technology, details, university, since, country } = creator
+    const { name, technology, details, university, since, country } = creator
 
     return (
         <>
             <div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div className="card bg-base-100 w-96 h-[700px] border-[1px] ">
                     <figure>
                         <img
                             src="https://techsteamcenter.com/wp-content/uploads/2023/08/computer-language.webp"
