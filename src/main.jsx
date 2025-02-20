@@ -13,6 +13,7 @@ import Registration from './registration/Registration';
 import Login from './registration/Login';
 import Contact from './registration/Contact';
 import Creator from './data of creator/Creator';
+import Effect from './useEffect/useEffect';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: "/creator",
         element: <Creator></Creator>,
+      },
+      {
+        path: "/effect",
+        element: <Effect></Effect>,
       },
     ],
   },
