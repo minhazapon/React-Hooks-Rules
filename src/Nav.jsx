@@ -12,6 +12,7 @@ function Nav() {
         <li><NavLink to='/contact'>Contact</NavLink></li>
         <li><NavLink to='/creator'>Creator</NavLink></li>
         <li><NavLink to='/effect'>useEffect</NavLink></li>
+        <li><NavLink to='/infinite'>infinite</NavLink></li>
 
     </>
 

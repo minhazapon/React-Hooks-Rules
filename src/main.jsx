@@ -14,6 +14,7 @@ import Login from './registration/Login';
 import Contact from './registration/Contact';
 import Creator from './data of creator/Creator';
 import Effect from './useEffect/useEffect';
+import Fetch from './useEffect/InfiniteFetch';
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: "/effect",
         element: <Effect></Effect>,
+      },
+      {
+        path: "/infinite",
+        element: <Fetch></Fetch>,
       },
     ],
   },
