@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import { useState } from "react"
+import Clean from "./CleanUp"
 
 
 function Effect() {
@@ -19,6 +20,9 @@ function Effect() {
                     <button onClick={() => setCount(count + 1)} className=" btn ">Will++</button>
                 </div>
 
+            </div>
+            <div className=" mt-20 ">
+                <Clean></Clean>
             </div>
         </>
     )
