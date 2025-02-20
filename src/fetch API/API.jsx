@@ -7,7 +7,7 @@ import { useState } from "react"
 
 function Api() {
 
-    const [pokemonData, setPokemon] = useState([])
+    const [pokemonData, setPokemon] = useState(null)
 
     useEffect(() => {
 
@@ -24,49 +24,20 @@ function Api() {
     if (pokemonData) {
         return (
             <>
-                <div className=" flex justify-center mt-10 ">
-                    <div className=" grid  md:grid-cols-4 gap-24 ">
-                        <div className=" flex justify-center ">
-                            <div className=" border-[1px] ">
-                                <img className=" h-[100px] " src={pokemonData.sprites.back_default} alt="" />
-                                <p className=" text-center"> {pokemonData.name} </p>
-                            </div>
-                        </div >
+                <div className=" ">
+                    <div className=" ">
 
-                        <div className=" flex justify-center ">
-                            <div className=" border-[1px] ">
-                                <img className=" h-[100px] " src={pokemonData.sprites.back_default} alt="" />
-                                <p className=" text-center"> {pokemonData.name} </p>
-                            </div>
-                        </div >
+                        <div className=" flex justify-center mt-10 ">
 
-                        <div className=" flex justify-center ">
-                            <div className=" border-[1px] ">
-                                <img className=" h-[100px] " src={pokemonData.sprites.back_default} alt="" />
-                                <p className=" text-center"> {pokemonData.name} </p>
+                            <div className=" border-[1px] p-5 bg-blue-50 rounded ">
+                                <img className=" h-[300px] " src={pokemonData.sprites.other.dream_world.front_default} alt="" />
+                                <p className=" text-center mt-5 text-5xl font-bold text-black"> {pokemonData.name} </p>
+                                <div>
+                                    <p></p>
+                                </div>
                             </div>
-                        </div >
 
-                        <div className=" flex justify-center ">
-                            <div className=" border-[1px] ">
-                                <img className=" h-[100px] " src={pokemonData.sprites.back_default} alt="" />
-                                <p className=" text-center"> {pokemonData.name} </p>
-                            </div>
-                        </div >
-
-                        <div className=" flex justify-center ">
-                            <div className=" border-[1px] ">
-                                <img className=" h-[100px] " src={pokemonData.sprites.back_default} alt="" />
-                                <p className=" text-center"> {pokemonData.name} </p>
-                            </div>
-                        </div >
-
-                        <div className=" flex justify-center ">
-                            <div className=" border-[1px] ">
-                                <img className=" h-[100px] " src={pokemonData.sprites.back_default} alt="" />
-                                <p className=" text-center"> {pokemonData.name} </p>
-                            </div>
-                        </div >
+                        </div>
                     </div>
                 </div>
             </>
