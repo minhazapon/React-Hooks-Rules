@@ -14,6 +14,7 @@ function Nav() {
         <li><NavLink to='/effect'>useEffect</NavLink></li>
         <li><NavLink to='/infinite'>infinite</NavLink></li>
         <li><NavLink to='/pokemon'>pokemon</NavLink></li>
+        <li><NavLink to='/async'>async/Await</NavLink></li>
 
     </>
 

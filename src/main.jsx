@@ -16,6 +16,7 @@ import Creator from './data of creator/Creator';
 import Effect from './useEffect/useEffect';
 import Fetch from './useEffect/InfiniteFetch';
 import Api from './fetch API/API';
+import AsyncAwait from './asyn/await/AsynAwait';
 
 const router = createBrowserRouter([
   {
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
       {
         path: "/pokemon",
         element: <Api></Api>,
+      },
+      {
+        path: "/async",
+        element: <AsyncAwait></AsyncAwait>,
       },
     ],
   },
