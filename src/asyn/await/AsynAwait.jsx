@@ -25,7 +25,7 @@ function AsyncAwait() {
         fetchData()
     }, [])
 
-    if (loading) return <p>Loading...</p>;
+    if (loading) return <p className=" text-center font-bold text-8xl text-black ">Loading...</p>;
     if (error) return <p>Error: {error}</p>;
 
     if (pokemonData) {
