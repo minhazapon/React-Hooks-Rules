@@ -9,11 +9,9 @@ function AsyncAwait() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-
                 let data = await fetch('https://pokeapi.co/api/v2/pokemon/pikachu')
                 let result = await data.json()
                 setPokemonData(result)
-
             } catch (err) {
                 setError(err.message);
             } finally {
